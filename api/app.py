@@ -11,6 +11,6 @@ def submit():
 def hello_world():
     return render_template("index.html")
 
-@app.route("/about", methods=["POST"])
+@app.route("/about")
 def about():
     return render_template("about.html")
